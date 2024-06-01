@@ -1,0 +1,56 @@
+image 2000 5500 background=#000
+
+ellipse (100,27) radius_x=100 radius_y=27 width=3 color=#0f0
+
+start_group s_part
+    curve ((12,0);(0,5);(8,10)) width=3
+end_group
+
+start_group letter_s
+    s_part (10,15)
+    s_part (26,35) scale=(-1,-1)
+end_group
+
+start_group letter_h
+    line ((0,0);(0,25)) width=2
+    curve ((0,25);(4,5);(8,25)) width=2
+end_group
+
+start_group letter_a
+    circle (5,5) radius=4 width=1
+    curve ((0,-5);(15,-1);(9,9)) width=2
+end_group
+
+start_group letter_p
+    line ((0,0);(0,20)) width=2
+    curve ((0,0);(10,5);(0,10)) width=2
+end_group
+
+start_group letter_e
+    letter_a (0,0) scale=(-1,-1)
+end_group
+
+start_group letter_c
+    curve ((15,0);(5,5);(15,10)) width=2
+end_group
+
+start_group shape_scape
+    letter_s (0,1)
+    letter_h (28,14)
+    letter_a (42,30)
+    letter_p (60,30)
+    letter_e (80,35)
+    letter_s (70,4)
+    letter_c (87,28)
+    letter_a (105,30)
+    letter_p (120,30)
+    letter_e (140,35)
+end_group
+
+shape_scape (20,0)
+shape_scape (100,0)
+shape_scape (200,800)
+shape_scape (450,1000)
+shape_scape (450,0)
+shape_scape (1000,-20)
+shape_scape (20,0)

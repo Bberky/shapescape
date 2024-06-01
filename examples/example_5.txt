@@ -1,0 +1,9 @@
+image 1980 1080
+
+regular_polygon (990,540) n_sides=3 side=10 width=5
+regular_polygon (990,540) n_sides=4 side=20 width=5
+regular_polygon (990,540) n_sides=5 side=40 width=5
+regular_polygon (990,540) n_sides=6 side=80 width=5
+regular_polygon (990,540) n_sides=7 side=160 width=5
+regular_polygon (990,540) n_sides=8 side=320 width=5
+regular_polygon (990,540) n_sides=9 side=640 width=5

@@ -1,0 +1,6 @@
+image 160 100 background=#f0f00e
+
+rectangle ((0,0);(50,50)) width=3 color=#00f
+circle (80,50) radius=20 width=2 color=#fff
+line ((0,0);(160,100)) width=10 color=#f00
+line ((0,100);(160,0)) width=10 color=#f00

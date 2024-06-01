@@ -1,0 +1,40 @@
+image 1000 1000 background=#000
+
+rectangle ((0,0);(999,999)) width=3 color=#00f
+circle (500,500) radius=250 width=10 color=#fff
+line ((500,250);(500,750)) width=10 color=#f00
+line ((250,500);(750,500)) width=10 color=#f00
+
+start_group group1
+    line ((0,0);(500,250)) width=10 color=#0f0
+    line ((0,0);(250,500)) width=10 color=#0f0
+end_group
+
+group1 (0,0)
+group1 (1000,0) scale=(-1,1)
+group1 (0,1000) scale=(1,-1)
+group1 (1000,1000) scale=(-1,-1)
+
+regular_polygon (500,500) n_sides=6 side=100 width=10 color=#fff
+
+start_group curve1
+    curve ((0,0);(250,500);(0,1000)) width=15
+end_group
+
+start_group left_right_curves
+    curve1 (0,0)
+    curve1 (1000,0) scale=(-1,1)
+end_group
+
+left_right_curves (0,0)
+
+start_group curve2
+    curve ((0,0);(500,250);(1000,0)) width=15 color=#f0f00e
+end_group
+
+start_group up_down_curves
+    curve2 (0,0)
+    curve2 (0,1000) scale=(1,-1)
+end_group
+
+up_down_curves (0,0)

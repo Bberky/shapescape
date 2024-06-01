@@ -1,0 +1,4 @@
+image 1500 1000 background=#fff
+
+rectangle ((250,750);(1250,750)) width=500 color=#C62D24
+polygon ((-150,0);(250,500);(-150,1000)) width=500 color=#1D427B

@@ -1,0 +1,16 @@
+image 500 500 background=#3578BD
+
+start_group line_vertical
+    line ((0,0);(0,100)) width=10 color=#E6AE3C
+end_group
+
+start_group line_horizontal
+    line ((0,0);(100,0)) width=10 color=#E6AE3C
+end_group
+
+line_vertical (50,125) scale=(1,2.5)
+line_horizontal (50,130) scale=(1.25,1)
+line_horizontal (50,225) scale=(0.95,1)
+line_vertical (250,125) scale=(1,2.5)
+line_vertical (400,125) scale=(1,2.5)
+line_horizontal (325,125) scale=(1.5,1)

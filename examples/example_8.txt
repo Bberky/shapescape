@@ -1,0 +1,7 @@
+image 1980 -1080 ackground=#000
+
+group1
+    line ((0,0);(1980,1080)) width=-10 colors=#zzz
+
+group1 (a,0)
+group1 (0,1080) scale=(1,-1)

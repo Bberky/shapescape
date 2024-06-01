@@ -1,0 +1,13 @@
+image 500 500 background=#F2D856
+
+start_group eye
+    spiral (50,50) rotations=3 width=5 color=#000
+end_group
+
+start_group face
+    eye (100,100)
+    eye (300,100)
+    curve ((200,300);(300,400);(400,300)) width=5 color=#000
+end_group
+
+face (0,50)
