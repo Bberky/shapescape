@@ -8,7 +8,7 @@ TEST_DIR=test
 BUILD_DIR=bin
 DEPS_DIR=$(BUILD_DIR)/deps
 BUILD_TEST_DIR=$(BUILD_DIR)/$(TEST_DIR)
-TARGET=berkeada
+TARGET=shapescape
 
 SOURCES=$(wildcard $(SRC_DIR)/*.cpp $(SRC_DIR)/**/*.cpp)
 HEADERS=$(wildcard $(SRC_DIR)/*.hpp $(SRC_DIR)/**/*.hpp)
@@ -54,4 +54,4 @@ $(DEPS_DIR)/Makefile.d: $(SOURCES) $(HEADERS) | bin
 
 .PHONY: clean
 clean:
-	rm -rf $(BUILD_DIR)/ doc/ berkeada
+	rm -rf $(BUILD_DIR)/ doc/ shapescape
